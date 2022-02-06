@@ -33,7 +33,7 @@ def task():
     print(message.body)
 
 
-schedule.every().day.at("15:40").do(task)
+schedule.every().day.at("17:20").do(task)
 
 while True:
     schedule.run_pending()
